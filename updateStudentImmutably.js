@@ -13,3 +13,19 @@ const student = {
 };
 
 /** Add your code below */
+const updatedStudent = updateStudentImmutably(student);
+console.log(updatedStudent);
+// Prints {
+//   id: 1,
+//   firstName: 'Ahmad',
+//   lastName: 'Salim',
+//   enrolled: true,
+// };
+
+console.log(student);
+// Prints {
+//   id: 1,
+//   firstName: 'Ahmad',
+//   lastName: 'Salim',
+//   enrolled: false,
+// };

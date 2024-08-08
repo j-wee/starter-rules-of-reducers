@@ -19,3 +19,21 @@ const studentsReducer = (state = initialState, action) => {
 };
 
 /** Add your code below */
+// console.log(
+//     studentsReducer(initialState, {
+//       type: 'students/addStudent',
+//       payload: {
+//         id: 4,
+//         firstName: 'Ming',
+//         lastName: 'Chan',
+//         enrolled: true,
+//       },
+//     })
+// );
+
+console.log(
+    studentsReducer(initialState, {
+      type: 'students/removeStudent',
+      payload: { id: 2 },
+    })
+);
